@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+Yegna Bingo
+</title>
+<link rel="stylesheet" type="text/css" href="../style/style.css">
+</head>
+<body>
+
+<h1>Yegna Bingo </h1>
+
+
+<p class="pdrawBall" id="pdrawBall"> </p>
+how many bingo card/s:<input type = "text" id="txtInput" placeholder="enter number of card" >
+<button onclick="draw()">Draw Card</button>
+<button id="btnDrawBall" onclick="drawBall()"> Draw Ball</button>
+<button onclick="clearCards()">Clear</button>
+
+
+
+<p id="pCount">No of Cards:0</p>
+<br>
+
+<div id = "divBingoCard"></div>
+
+<script src="../script/BingoCard.js"></script>
+<script src="../script/BallDraw.js"></script> 
+<script src="../script/Script.js"></script>
+</body>
+</html>
